@@ -1,5 +1,12 @@
-# Don't worry about these, we will cover modules later!
+###########################################################################################
+# In these notes I will be defining each lesson as a separate function.
 
+# To start viewing the lessons, open the basic.py file in the Lessons folder.
+
+# To see the output of a lesson, uncomment that lesson's function in the main() function.
+###########################################################################################
+
+# Don't worry about these, we will cover modules later!
 import Lessons.basic as bas
 import Lessons.logic as log
 import Lessons.functions as fun
@@ -7,23 +14,15 @@ import Lessons.oop as oop
 import Lessons.advanced as adv
 import Lessons.files as fil
 
-# This is a comment!
-
-###########################################################################################
-# In these notes I will be defining each lesson as a separate function.
-
-# To start viewing the lessons, open the 2.basic.py file.
-
-# To see the output of a lesson, uncomment that lesson's function in the main() function.
-###########################################################################################
 def main(): 
     
-    print("Hello World!") # This is your first line of Python!
+    print("Hello World! \n") # This is your first line of Python!
+    
     # Indentation is important in Pythion.
     # For now, don't worry about it too much, but pay attention to indentation when you see it!
 
     #The notes officially start in the next file. 
-    #When you're ready to see the output 
+    #When you're ready to see the output for a lesson, come back here and remove the # on that lesson.
     def main_basic():
         #bas.variables()
         #bas.data_types()
@@ -41,7 +40,7 @@ def main():
     main_basic()
     
     def main_logic():
-        log.if_else()
+        #log.if_else()
         #log.while_loops()
         #log.for_loops()
         #log.try_except()

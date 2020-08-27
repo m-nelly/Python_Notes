@@ -1,5 +1,4 @@
 def if_else():
-    print("Hello!")
     return()
 
 def while_loops():
