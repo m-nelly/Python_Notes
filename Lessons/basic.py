@@ -104,17 +104,45 @@ def booleans():
 
     return()
 
-def operators(): #Working
+def operators():
     # operators are some of the most important aspects of any programming language. 
     # operators are used for arithmetic, assignment, comparison, logic, and many other functions.
 
-    # arithmetic operators include +, -, *, /, %, **, and //
     # assignment operators include =, +=, -=, *=, and /=
     # comparison operators include ==, !=, >, <, >=, and  <=
     # logical operators include and, or, and not
     # identity operators include is and is not
     # membership operators include in and not in
     # bitwise operators include &, |, ^, ~, <<, and >>
+
+    # arithmetic operators
+    print(4, " + ", 5, " = ", (4 + 5)) # addition  
+    print(4, " - ", 5, " = ", (4 - 5)) # subtraction
+    print(5, " / ", 2, " = ", (5 / 2)) # division
+    print(11, " % ", 5, " = ", (11 % 5)) # modulus (returns remainder after division)
+    print(2, " ** ", 4, " = ", (2 ** 4)) # exponentiation
+    print(11, " // ", 2, " = ", (11 // 2)) # floor division (returns the quotient of normal division rounded down.)
+    print('\n')
+    # comparison operators
+
+    x = input("Choose the first of two numbers: ")
+    y = input("Choose the second of two numbers: ")
+
+    # we will cover if statements shortly. 
+    # for now experiment with different values to learn the operators.
+    if (x == y):
+        print(x,' == ',y)
+    else:
+        print(x, ' != ', y)
+    
+    if (x > y):
+        print(x, ' > ', y)
+    elif(x < y):
+        print(x, ' < ', y)
+    else:
+        pass
+
+    # the remaining operator types will be covered in future lessons.
 
     return()
 
