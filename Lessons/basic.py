@@ -147,16 +147,119 @@ def operators():
     return()
 
 def lists():
+    # to define a list, use [] square brackets.
+    # this is the list we will be working with for the next few lessons.
+    # for now, our list is simply a set of values.
+    # these values are ordered and can be changed.
+    list1 = ["apple","macbook", 3, 1299.99]
+
+    print(list1)
+
+    # specific items within a list can be accessed using indexing.
+    print(list1[0]) 
+    # this prints the first entry in the list.
+
+    # lists can also be accessed using negative indexes.
+    print(list1[-1])
+    # this will print the last item in the list.
+
+    # index ranges can be specified as well.
+    print(list1[1:3])
+    # this will print the second, third, and fourth list items.
+
+    # to change a list item, we can assign a value to a specific index.
+    list1[3] = 2399.00
+
+    # to add a value to a list, use the append() method.
+    list1.append("ordered")
+
+    # to insert an item into a list, use the insert method.
+    list1.insert(2, "pro")
+    # the first value is the index, and the second is the value being inserted.
+
+    # to remove an item, use the remove() method.
+    list1.remove(3)
+    # this will remove items based on value.
+
+    # to remove a specific index, use pop()
+    list1.pop()
+    # if no index is specified, the last item will be removed.
+
+    print(list1)
+
+    # other methods for removing list items are available including del and clear()
+
+    # to copy a list, you can use the copy() method or the list() method.
+
     return()
 
 def tuples():
+    # a tuple operates very similarly to a list; however, it is unchangable.
+
+    # to create a tuple, use () parentheses.
+
+    tuple1 = ("apple", "macbook", "pro", 2399.00)
+
+    print(tuple1)
+
     return()
 
 def sets():
+    # sets are unordered and unindexed.
+    # create a set with {} curly brackets.
+
+    set1 = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+    print(set1)
+
+    print(set1)
+
+    # add items to a set using add(), remove items using remove().
+    # add multiple items using update().
+
+    set1.update([10, 11 ,12 ,13 , 14, 15, 16, 17, 18, 19, 20])
+
+    print(set1)
+
+    # pop() will remove a random item from the set.
     return()
 
 def dictionaries():
+    # dictionaries are unordered sets of key:value pairs.
+    # create a dictionary using {} curly brackets.
+
+    dict1 = {
+        "brand": "apple",
+        "model": "macbook",
+        "trim": "pro",
+        "price": 2399.00,
+        "status": "ordered"
+    }
+
+    # items in a dictionary are indexed based on the key values.
+    print(dict1["price"])
+
+    # values can be changed by assigning the key index a new value.
+    dict1["status"] = "arrived"
+
+    print(dict1["status"])
+
+    # key:value pairs can be added in the same way.
+    dict1["working"] = "yes"
+
+    print(dict1["working"])
+
+    # remove items with pop("key") or del dict1["key"]
+
+    # if needed, dictionaries can be nested.
+
     return()
 
 def user_input():
+    # to get user input, use the input() function.
+
+    x = input("Type your name:")
+
+    print(x)
+    
     return()

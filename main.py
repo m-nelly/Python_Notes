@@ -7,12 +7,12 @@
 ###########################################################################################
 
 # Don't worry about these, we will cover modules later!
-import Lessons.basic as bas
-import Lessons.logic as log
-import Lessons.functions as fun
+import Lessons.basic as basic
+import Lessons.logic as logic
+import Lessons.functions as funtions
 import Lessons.oop as oop
-import Lessons.advanced as adv
-import Lessons.files as fil
+import Lessons.advanced as advanced
+import Lessons.files as files
 
 def main(): 
     
@@ -22,34 +22,34 @@ def main():
     # For now, don't worry about it too much, but pay attention to indentation when you see it!
 
     #The notes officially start in the next file. 
-    #When you're ready to see the output for a lesson, come back here and remove the # on that lesson.
+    #When you're ready to see the output for a lesson, come back here, remove the # on that lesson, and run main.py
     def main_basic():
-        #bas.variables()
-        #bas.data_types()
-        #bas.numbers()
-        #bas.casting()
-        #bas.strings()
-        #bas.booleans()
-        #bas.operators()
-        #bas.lists()
-        #bas.tuples()
-        #bas.sets()
-        #bas.dictionaries()
-        #bas.user_input()
+        #basic.variables()
+        #basic.data_types()
+        #basic.numbers()
+        #basic.casting()
+        #basic.strings()
+        #basic.booleans()
+        #basic.operators()
+        #basic.lists()
+        #basic.tuples()
+        #basic.sets()
+        #basic.dictionaries()
+        #basic.user_input()
         return()
     main_basic()
     
     def main_logic():
-        #log.if_else()
-        #log.while_loops()
-        #log.for_loops()
-        #log.try_except()
+        #logic.if_else()
+        #logic.while_loops()
+        #logic.for_loops()
+        #logic.try_except()
         return()
     main_logic()
 
     def main_functions():
-        #fun.functions()
-        #fun.lambda_functions()
+        #functions.functions()
+        #functions.lambda_functions()
         return()  
     main_functions()
 
@@ -63,20 +63,20 @@ def main():
     main_oop()
 
     def main_advanced():
-        #adv.dates()
-        #adv.math()
-        #adv.json()
-        #adv.regex()
-        #adv.pip()
-        #adv.string_formatting()
+        #advanced.dates()
+        #advanced.math()
+        #advanced.json()
+        #advanced.regex()
+        #advanced.pip()
+        #advanced.string_formatting()
         return()
     main_advanced()
 
     def main_files():
-        #fil.file_handling()
-        #fil.read_files()
-        #fil.write_files()
-        #fil.delete_files()
+        #files.file_handling()
+        #files.read_files()
+        #files.write_files()
+        #files.delete_files()
         return()
     main_files()
 
