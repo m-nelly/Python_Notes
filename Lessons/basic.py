@@ -113,7 +113,7 @@ def operators():
     # logical operators include and, or, and not
     # identity operators include is and is not
     # membership operators include in and not in
-    # bitwise operators include &, |, ^, ~, <<, and >>
+    # bitwise operators include &, |, ^, ~, <<, and >> (These will not be covered.)
 
     # arithmetic operators
     print(4, " + ", 5, " = ", (4 + 5)) # addition  
@@ -261,5 +261,5 @@ def user_input():
     x = input("Type your name:")
 
     print(x)
-    
+
     return()
