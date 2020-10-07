@@ -74,7 +74,41 @@ def while_loops():
     return()
 
 def for_loops():
+    # for loops can be used to loop through entities in a list, string, or range.
+    # for loops work similarly to while loops, except over a set number of iterations.
+
+    list1 = [1, 2, 3, 4, 5]
+    
+    for i in list1:
+        print(i)
+    # this loop will print each item in the list.
+
+    str1 = "welcome"
+
+    for x in str1:
+        print("welcome")
+    # this loop will print welcome for each character in str1.
+
+    # you can break or continue a for loop the same way you do with a while loop.
+
+    # when for loops are nested, the inner loop is executed for each iteration of the outer.
+
+    for i in str1:
+        for x in list1:
+            print(i)
+
+    # this loop will print five of each character in str1.
+
     return()
 
 def try_except():
+    # the try: block lets you test code for errors.
+    # the except: block provides error handling.
+
+    try:
+        print(x)
+    except:
+        print("x is not defined!")
+
+    # as a best practice, use these blocks to handle known potential errors.
     return()
